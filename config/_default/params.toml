@@ -1,0 +1,74 @@
+colorScheme = "mars"
+defaultAppearance = "light"
+autoSwitchAppearance = true
+
+enableSearch = false
+enableCodeCopy = false
+replyByEmail = false
+
+mainSections = ["projects"]
+
+disableImageOptimization = false
+disableTextInHeader = false
+hotlinkFeatureImage = false
+thumbnailAspectRatio = "1.6"
+
+fingerprintAlgorithm = "sha512"
+
+[header]
+  layout = "fixed-fill-blur"
+
+[footer]
+  showMenu = true
+  showCopyright = true
+  showThemeAttribution = true
+  showAppearanceSwitcher = true
+  showScrollToTop = true
+
+[homepage]
+  layout = "background"
+  homepageImage = "img/background.jpg"
+  showRecent = false
+  layoutBackgroundBlur = true
+
+[article]
+  showDate = false
+  showViews = false
+  showLikes = false
+  showDateUpdated = false
+  showAuthor = false
+  showHero = true
+  heroStyle = "big"
+  showBreadcrumbs = false
+  showDraftLabel = true
+  showEdit = false
+  showHeadingAnchors = false
+  showPagination = false
+  showReadingTime = false
+  showTableOfContents = false
+  showTaxonomies = false
+  showWordCount = false
+  showZenMode = false
+
+[list]
+  showHero = false
+  showBreadcrumbs = false
+  showSummary = true
+  showViews = false
+  showLikes = false
+  showTableOfContents = false
+  showCards = true
+  orderByWeight = true
+  groupByYear = false
+  cardView = true
+  cardViewScreenWidth = false
+  constrainItemsWidth = false
+
+[sitemap]
+  excludedKinds = ["taxonomy", "term"]
+
+[taxonomy]
+  showTermCount = false
+
+[term]
+  showHero = false

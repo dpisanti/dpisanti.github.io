@@ -1,0 +1,17 @@
+[goldmark]
+  [goldmark.parser]
+    wrapStandAloneImageWithinParagraph = false
+    [goldmark.parser.attribute]
+      block = true
+  [goldmark.renderer]
+    unsafe = true
+  [goldmark.extensions]
+    [goldmark.extensions.typographer]
+      disable = true
+
+[highlight]
+  noClasses = false
+
+[tableOfContents]
+  startLevel = 2
+  endLevel = 3

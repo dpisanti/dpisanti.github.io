@@ -1,0 +1,131 @@
+# Publications list. To add a paper, copy one entry and edit it.
+# group: "navigation" or "radio" (decides the section on the Publications page)
+# selected: true shows the paper on the home page as well
+# thumb: an image in assets/img/pubs/ (640x400 works well)
+# note: short highlight shown in bold, e.g. an award
+
+- title: "Incremental 3D Environment Reconstruction Pipeline for Mission Planning of Planetary Exploration Rovers"
+  authors: "A. Frantz, C. Kyriazis, R. Castilla, D. Pisanti, S. Coloma, …, M. Olivares-Mendez"
+  venue: "IEEE International Conference on Robotics and Automation (ICRA)"
+  year: 2027
+  status: "under review"
+  group: navigation
+  thumb: icra27-3d.jpg
+
+- title: "Single-view Lunar Hazard Segmentation using Deep Learning: Datasets, Models, and Cross-Dataset Generalization"
+  authors: "C. Kyriazis, D. Pisanti, M. Olivares-Mendez"
+  venue: "Manuscript"
+  year: 2026
+  status: "in preparation"
+  group: navigation
+  thumb: hazard.jpg
+
+- title: "Earth to Moon Bilateral Teleoperation for Lunar Assembly: A Unified Framework for Shared Autonomy, Skill Learning, and Telepresence"
+  authors: "H. T. Dinc, J. Heidersberger, C. Kyriazis, T. Wagner, A. Frantz, D. Pisanti, …, C. Ott"
+  venue: "IEEE Conference on Telepresence"
+  year: 2026
+  group: navigation
+  thumb: telepresence.jpg
+
+- title: "Geometry-aided Vision-based Localization of Future Mars Helicopters in Challenging Illumination Conditions"
+  authors: "D. Pisanti, R. Hewitt, R. Brockers, G. Georgakis"
+  venue: "IEEE International Conference on Robotics and Automation (ICRA)"
+  year: 2026
+  group: navigation
+  selected: true
+  thumb: geo-loftr.jpg
+  links:
+    - { label: "paper", url: "https://ieeexplore.ieee.org/abstract/document/11696980" }
+    - { label: "arXiv", url: "https://arxiv.org/abs/2502.09795" }
+    - { label: "project page", url: "https://dpisanti.github.io/geo-loftr/" }
+    - { label: "code", url: "https://github.com/nasa-jpl/mbl_mars" }
+    - { label: "weights", url: "https://huggingface.co/dpisanti/mbl-mars" }
+    - { label: "dataset", url: "https://doi.org/10.48577/jpl.7JFBOE" }
+
+- title: "MARTIAN: A Rendering Framework for Aerial Mars Imagery from HiRISE Orbital Data"
+  authors: "D. Pisanti, G. Georgakis"
+  venue: "ICRA Workshop on Perceptual Challenges for Planetary Exploration"
+  year: 2026
+  note: "Best Poster Award"
+  group: navigation
+  selected: true
+  thumb: martian.jpg
+  links:
+    - { label: "arXiv", url: "https://arxiv.org/abs/2605.29647" }
+    - { label: "code", url: "https://github.com/nasa-jpl/martian" }
+
+- title: "A Map-based Localization System for Ingenuity using Deep Image Matching"
+  authors: "G. Georgakis, D. Pisanti, N. Williams, C. Mauceri, G. Kubiak, A. Ansar, R. Brockers"
+  venue: "IEEE Transactions on Field Robotics (T-FR)"
+  year: 2025
+  group: navigation
+  selected: true
+  thumb: tfr.jpg
+  links:
+    - { label: "paper", url: "https://doi.org/10.1109/TFR.2025.3612364" }
+
+- title: "Design and Case Studies of CORTO, an Open Access Rendering Tool for Celestial and Artificial Bodies"
+  authors: "M. Pugliatti, C. Buonagura, D. Pisanti, N. Faraco, M. Maestrini, A. Pizzetti, F. Topputo"
+  venue: "International Astronautical Congress (IAC)"
+  year: 2024
+  group: navigation
+  thumb: corto.jpg
+  links:
+    - { label: "paper", url: "https://doi.org/10.52202/078357-0122" }
+
+- title: "Survey of Mission Concepts for Exploring the Dark Ages Universe"
+  authors: "S. Bandyopadhyay, A. Goel, G. Gupta, D. Pisanti, P. Goldsmith, T.-C. Chang, …, J. Lazio"
+  venue: "IEEE Aerospace Conference"
+  year: 2025
+  group: radio
+  thumb: aeroconf25.jpg
+  links:
+    - { label: "paper", url: "https://ieeexplore.ieee.org/document/11068539" }
+
+- title: "Modelling Science Return from the Lunar Crater Radio Telescope on the Far Side of the Moon"
+  authors: "D. Pisanti, A. Goel, G. Gupta, M. Arya, B. Byron, …, S. Bandyopadhyay"
+  venue: "Philosophical Transactions of the Royal Society A"
+  year: 2024
+  group: radio
+  selected: true
+  thumb: rsta.jpg
+  links:
+    - { label: "paper", url: "https://doi.org/10.1098/rsta.2023.0073" }
+    - { label: "code & data", url: "https://doi.org/10.48577/jpl.D4SYJN" }
+
+- title: "Reflector Antenna for Lunar Crater Radio Telescope"
+  authors: "G. Gupta, N. Chahat, A. Goel, M. Arya, D. Pisanti, P. Goldsmith, …, S. Bandyopadhyay"
+  venue: "IEEE International Symposium on Antennas and Propagation and USNC-URSI Radio Science Meeting"
+  year: 2023
+  group: radio
+  thumb: aps23.jpg
+  links:
+    - { label: "paper", url: "https://ieeexplore.ieee.org/document/10237928" }
+
+- title: "Lift Wire Deployment and Anchoring System for the Lunar Crater Radio Telescope on the Far Side of the Moon"
+  authors: "R. Wang, V. P. Gehlot, S. Bandyopadhyay, P. M. McGarey, B. Byron, D. Pisanti, …, K. Jenks"
+  venue: "AIAA SciTech Forum"
+  year: 2023
+  group: radio
+  thumb: scitech-wire.jpg
+  links:
+    - { label: "paper", url: "https://doi.org/10.2514/6.2023-1787" }
+
+- title: "Kilometer-Scale Parabolic Reflector for a Radio Telescope in a Lunar Crater"
+  authors: "M. Arya, J. T. Herrscher, D. Pisanti, A. Verniani, M. Delapierre, …, S. Bandyopadhyay"
+  venue: "AIAA SciTech Forum"
+  year: 2023
+  note: "AIAA Spacecraft Structures Best Paper Award"
+  group: radio
+  thumb: scitech-reflector.jpg
+  links:
+    - { label: "paper", url: "https://doi.org/10.2514/6.2023-0754" }
+
+- title: "Lunar Crater Radio Telescope (LCRT) on the Far Side of the Moon"
+  authors: "S. Bandyopadhyay, A. Goel, D. Pisanti, J. Lazio, P. Goldsmith, …, V. Vustyansky"
+  venue: "NASA Innovative Advanced Concepts (NIAC) Phase II Final Report"
+  year: 2023
+  group: radio
+  thumb: niac.jpg
+  links:
+    - { label: "pdf", url: "https://www.dropbox.com/scl/fi/ooqok08snd55dvwun17q9/LCRT_NIAC_Phase2_Final_Report.pdf?rlkey=rgk86coj7fhf1uhej2sd356if&dl=0" }

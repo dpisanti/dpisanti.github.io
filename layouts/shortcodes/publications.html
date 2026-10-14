@@ -1,0 +1,40 @@
+{{- /*
+  Usage: {{< publications group="navigation" >}}  or  {{< publications selected="true" >}}
+  Entries come from data/publications.yaml.
+*/ -}}
+{{- $group := .Get "group" -}}
+{{- $selected := eq (.Get "selected") "true" -}}
+{{- $items := hugo.Data.publications -}}
+{{- if $group }}{{ $items = where $items "group" $group }}{{ end -}}
+{{- if $selected }}{{ $items = where $items "selected" true }}{{ end -}}
+<div class="pub-list not-prose">
+{{- range $items }}
+  {{- $first := "" -}}
+  {{- with .links }}{{ $first = (index . 0).url }}{{ end -}}
+  <div class="pub-item">
+    <div class="pub-thumb">
+      {{- with .thumb }}
+        {{- with resources.Get (printf "img/pubs/%s" .) }}
+          {{- $img := .Fill "640x400 Center q85" }}
+          {{- if $first }}<a href="{{ $first }}" target="_blank" rel="noopener">{{ end -}}
+          <img src="{{ $img.RelPermalink }}" width="320" height="200" alt="" loading="lazy">
+          {{- if $first }}</a>{{ end -}}
+        {{- end }}
+      {{- end }}
+    </div>
+    <div class="pub-body">
+      <div class="pub-title">
+        {{- if $first }}<a href="{{ $first }}" target="_blank" rel="noopener">{{ .title }}</a>{{ else }}{{ .title }}{{ end -}}
+      </div>
+      <div class="pub-authors">{{ replace .authors "D. Pisanti" "<strong>D. Pisanti</strong>" | safeHTML }}</div>
+      <div class="pub-venue"><em>{{ .venue }}</em>, {{ .year }}{{ with .status }} <span class="pub-status">({{ . }})</span>{{ end }}</div>
+      {{- with .note }}<div class="pub-note">{{ . }}</div>{{ end }}
+      {{- with .links }}
+      <div class="pub-links">
+        {{- range $i, $l := . }}{{ if $i }}<span class="pub-sep">/</span>{{ end }}<a href="{{ $l.url }}" target="_blank" rel="noopener">{{ $l.label }}</a>{{ end -}}
+      </div>
+      {{- end }}
+    </div>
+  </div>
+{{- end }}
+</div>

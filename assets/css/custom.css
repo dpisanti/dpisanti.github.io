@@ -51,7 +51,7 @@
 html.dark #bg-mars { display: none; }
 html.dark #bg-moon { display: block; }
 .home-bg-fade {
-  background: linear-gradient(to bottom, rgba(var(--color-neutral), 0.12) 0%, rgba(var(--color-neutral), 0.5) 45%, rgba(var(--color-neutral), 1) 100%);
+  background: linear-gradient(to bottom, rgba(var(--color-neutral), 0) 0%, rgba(var(--color-neutral), 0.15) 40%, rgba(var(--color-neutral), 0.6) 75%, rgba(var(--color-neutral), 1) 100%);
 }
 html.dark .home-bg-fade {
   background: linear-gradient(to bottom, rgba(var(--color-neutral-800), 0.25) 0%, rgba(var(--color-neutral-800), 0.55) 45%, rgba(var(--color-neutral-800), 1) 100%);

@@ -3,7 +3,7 @@ title: "Curriculum Vitae"
 description: "Curriculum vitae of Dario Pisanti."
 ---
 
-<!-- When a public PDF is ready, place it at static/cv/Pisanti_CV.pdf and add a download button here. -->
+{{< button href="/cv/Pisanti_CV.pdf" target="_blank" >}}Download CV (PDF){{< /button >}}
 
 ## Research experience
 

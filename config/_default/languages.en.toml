@@ -13,14 +13,13 @@ title = "Dario Pisanti"
 
 [params.author]
   name = "Dario Pisanti"
-  # Drop a square photo at assets/img/profile.jpg and uncomment the next line.
-  # image = "img/profile.jpg"
+  image = "img/profile.jpg"
   headline = "Learning-based Visual Navigation for Planetary Exploration"
   bio = "Postdoctoral Researcher in the Space Robotics Group at SnT, University of Luxembourg."
   links = [
-    { email = "mailto:dario.pisanti@unilu.lu" },
+    { email = "mailto:dario.pisanti@uni.lu" },
     { github = "https://github.com/dpisanti" },
     { linkedin = "https://www.linkedin.com/in/dario-pisanti/" },
     { orcid = "https://orcid.org/0000-0002-0737-8001" },
-    # { google-scholar = "https://scholar.google.com/citations?user=YOUR_ID" },
+    { google-scholar = "https://scholar.google.com/citations?user=4wUBppIAAAAJ" },
   ]

@@ -9,7 +9,7 @@ replyByEmail = false
 mainSections = ["projects"]
 
 disableImageOptimization = false
-disableTextInHeader = false
+disableTextInHeader = true
 hotlinkFeatureImage = false
 thumbnailAspectRatio = "1.6"
 
@@ -27,7 +27,6 @@ fingerprintAlgorithm = "sha512"
 
 [homepage]
   layout = "background"
-  homepageImage = "img/background.jpg"
   showRecent = false
   layoutBackgroundBlur = true
 

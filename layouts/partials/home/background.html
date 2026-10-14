@@ -1,0 +1,65 @@
+{{- /*
+  Home page layout, adapted from Blowfish's "background" layout.
+  Two backgrounds follow the appearance switch: Mars in light mode, the Moon in dark mode.
+  Images: assets/img/bg-mars.jpg, assets/img/bg-moon.jpg, assets/img/portrait.jpg
+*/ -}}
+{{ $mars := resources.Get "img/bg-mars.jpg" }}
+{{ $moon := resources.Get "img/bg-moon.jpg" }}
+{{ $portrait := resources.Get "img/portrait.jpg" }}
+<article class="prose dark:prose-invert max-w-full">
+  <div class="relative">
+    <div class="mx-auto max-w-7xl p-0">
+      <div class="relative sm:overflow-hidden">
+        <div class="fixed inset-x-0 top-0 -z-10">
+          {{ with $mars }}
+            <img id="bg-mars" class="home-bg nozoom mt-0 mr-0 mb-0 ml-0 h-[1000px] w-full object-cover"
+              src="{{ (.Resize "1672x webp q82").RelPermalink }}" role="presentation" alt="">
+          {{ end }}
+          {{ with $moon }}
+            <img id="bg-moon" class="home-bg nozoom mt-0 mr-0 mb-0 ml-0 h-[1000px] w-full object-cover"
+              src="{{ (.Resize "1672x webp q82").RelPermalink }}" role="presentation" alt="">
+          {{ end }}
+          <div class="home-bg-fade absolute inset-0 h-[1000px]"></div>
+        </div>
+        <div class="relative flex flex-col items-center justify-center px-1 py-1 text-center">
+          {{ with $portrait }}
+            {{ $img := .Resize "800x webp q85" }}
+            <img class="home-portrait nozoom" width="{{ $img.Width }}" height="{{ $img.Height }}"
+              alt="{{ site.Params.Author.name }}" loading="eager" fetchpriority="high" src="{{ $img.RelPermalink }}">
+          {{ end }}
+          <h1 class="mb-2 text-4xl font-extrabold text-neutral-800 dark:text-neutral-200">
+            {{ .Site.Params.Author.name | default .Site.Title }}
+          </h1>
+          {{ with .Site.Params.Author.headline }}
+            <h2 class="mt-0 mb-0 text-xl text-neutral-800 dark:text-neutral-300">{{ . | markdownify }}</h2>
+          {{ end }}
+          <div class="mt-3 mb-10 text-2xl">
+            {{ with .Site.Params.Author.links }}
+              <div class="flex flex-wrap">
+                {{ range $links := . }}
+                  {{ range $name, $url := $links }}
+                    {{ $isEmail := eq $name "email" }}
+                    <a class="{{ cond $isEmail "email-link" "" }} hover:text-primary-400 text-primary-800 dark:text-primary-200 px-1"
+                      href="{{ cond $isEmail "#" ($url | safeURL) }}"
+                      {{ if $isEmail }}data-email="{{ $url | base64Encode }}" data-subject="Contact"{{ end }}
+                      target="_blank" aria-label="{{ $name | title }}" title="{{ $name | title }}" rel="me noopener noreferrer">
+                      {{ partial "icon.html" $name }}
+                    </a>
+                  {{ end }}
+                {{ end }}
+              </div>
+            {{ end }}
+          </div>
+          <section class="prose dark:prose-invert w-full">{{ .Content }}</section>
+        </div>
+      </div>
+    </div>
+  </div>
+</article>
+{{ if .Site.Params.homepage.layoutBackgroundBlur | default false }}
+  <div id="background-blur"
+    class="fixed opacity-0 inset-x-0 top-0 h-full single_hero_background nozoom backdrop-blur-xl bg-neutral-100/75 dark:bg-neutral-800/60"></div>
+  {{ $backgroundBlur := resources.Get "js/background-blur.js" | resources.Minify | resources.Fingerprint (.Site.Params.fingerprintAlgorithm | default "sha512") }}
+  <script type="text/javascript" src="{{ $backgroundBlur.RelPermalink }}" integrity="{{ $backgroundBlur.Data.Integrity }}"
+    data-blur-id="background-blur"></script>
+{{ end }}

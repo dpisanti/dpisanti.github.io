@@ -1,4 +1,9 @@
 [[main]]
+  name = "Home"
+  pageRef = "/"
+  weight = 1
+
+[[main]]
   name = "Publications"
   pageRef = "publications"
   weight = 10

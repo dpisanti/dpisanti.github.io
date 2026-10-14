@@ -13,5 +13,3 @@ Within the project I also advise the PhD research of Christos Kyriazis on teleop
 ## Outputs
 
 - *Earth to Moon Bilateral Teleoperation for Lunar Assembly: A Unified Framework for Shared Autonomy, Skill Learning, and Telepresence*, IEEE Conference on Telepresence, 2026
-- *Incremental 3D Environment Reconstruction Pipeline for Mission Planning of Planetary Exploration Rovers*, ICRA 2027 (under review)
-- *Single-view Lunar Hazard Segmentation using Deep Learning: Datasets, Models, and Cross-Dataset Generalization* (in preparation)

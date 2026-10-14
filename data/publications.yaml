@@ -4,22 +4,6 @@
 # thumb: an image in assets/img/pubs/ (640x400 works well)
 # note: short highlight shown in bold, e.g. an award
 
-- title: "Incremental 3D Environment Reconstruction Pipeline for Mission Planning of Planetary Exploration Rovers"
-  authors: "A. Frantz, C. Kyriazis, R. Castilla, D. Pisanti, S. Coloma, …, M. Olivares-Mendez"
-  venue: "IEEE International Conference on Robotics and Automation (ICRA)"
-  year: 2027
-  status: "under review"
-  group: navigation
-  thumb: icra27-3d.jpg
-
-- title: "Single-view Lunar Hazard Segmentation using Deep Learning: Datasets, Models, and Cross-Dataset Generalization"
-  authors: "C. Kyriazis, D. Pisanti, M. Olivares-Mendez"
-  venue: "Manuscript"
-  year: 2026
-  status: "in preparation"
-  group: navigation
-  thumb: hazard.jpg
-
 - title: "Earth to Moon Bilateral Teleoperation for Lunar Assembly: A Unified Framework for Shared Autonomy, Skill Learning, and Telepresence"
   authors: "H. T. Dinc, J. Heidersberger, C. Kyriazis, T. Wagner, A. Frantz, D. Pisanti, …, C. Ott"
   venue: "IEEE Conference on Telepresence"

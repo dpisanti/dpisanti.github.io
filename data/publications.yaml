@@ -82,7 +82,7 @@
   venue: "IEEE International Symposium on Antennas and Propagation and USNC-URSI Radio Science Meeting"
   year: 2023
   group: radio
-  thumb: aps23.jpg
+  thumb: lcrt.jpg
   links:
     - { label: "paper", url: "https://ieeexplore.ieee.org/document/10237928" }
 
@@ -91,7 +91,7 @@
   venue: "AIAA SciTech Forum"
   year: 2023
   group: radio
-  thumb: scitech-wire.jpg
+  thumb: lcrt.jpg
   links:
     - { label: "paper", url: "https://doi.org/10.2514/6.2023-1787" }
 
@@ -101,7 +101,7 @@
   year: 2023
   note: "AIAA Spacecraft Structures Best Paper Award"
   group: radio
-  thumb: scitech-reflector.jpg
+  thumb: lcrt.jpg
   links:
     - { label: "paper", url: "https://doi.org/10.2514/6.2023-0754" }
 
@@ -110,6 +110,6 @@
   venue: "NASA Innovative Advanced Concepts (NIAC) Phase II Final Report"
   year: 2023
   group: radio
-  thumb: niac.jpg
+  thumb: lcrt.jpg
   links:
     - { label: "pdf", url: "https://www.dropbox.com/scl/fi/ooqok08snd55dvwun17q9/LCRT_NIAC_Phase2_Final_Report.pdf?rlkey=rgk86coj7fhf1uhej2sd356if&dl=0" }

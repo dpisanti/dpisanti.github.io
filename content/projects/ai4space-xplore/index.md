@@ -2,7 +2,10 @@
 title: "AI4SPACE-XPLORE"
 summary: "ESA-funded study for a strategic roadmap on AI in space exploration. Project Coordinator, with DLR, 2025 to 2026."
 weight: 20
+showHero: false
 ---
+
+![AI landscape for space exploration: technical areas and AI readiness levels across Low Earth Orbit, the Moon and Mars](ai-landscape.png)
 
 **Role:** Project Coordinator and proposal co-author, University of Luxembourg (2025 to 2026)
 

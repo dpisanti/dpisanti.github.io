@@ -1,9 +1,9 @@
 /* Publication list, in the spirit of Jon Barron's academic page */
 .pub-list { display: flex; flex-direction: column; gap: 1.75rem; margin: 1.5rem 0 2.5rem; }
 .pub-item { display: flex; gap: 1.5rem; align-items: flex-start; }
-.pub-thumb { flex: 0 0 220px; }
+.pub-thumb { flex: 0 0 260px; }
 .pub-thumb img {
-  display: block; width: 220px; height: auto; margin: 0;
+  display: block; width: 260px; height: auto; margin: 0;
   border-radius: 0.5rem; border: 1px solid rgba(var(--color-neutral-200), 1);
   background: #fff;
 }

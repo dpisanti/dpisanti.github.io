@@ -21,14 +21,7 @@ I developed the science pipeline for the concept within its NIAC Phase II study.
 - **Signal extraction.** I integrated a pattern recognition pipeline into a simulated lunar observation framework, retrieving the Dark Ages signal to within 20 mK over a one-year mission, despite galactic foregrounds several orders of magnitude brighter.
 - **Simulated datasets.** I generated training and test sets of sky observations from the lunar far side with the full LCRT antenna model, including crater morphology and the dielectric properties of the regolith.
 
-<figure class="side-figure">
-  <img src="nova-award.jpg" alt="Dario Pisanti holding the NOVA Award certificate in front of the JPL sign" loading="lazy">
-  <figcaption>With the NOVA Award at NASA JPL.</figcaption>
-</figure>
-
 This work received the NOVA Award from the Mobility and Robotics Systems section of NASA JPL in 2024.
-
-<div style="clear: both"></div>
 
 ## Outputs
 

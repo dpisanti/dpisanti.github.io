@@ -16,7 +16,7 @@ description: "Curriculum vitae of Dario Pisanti."
 <div class="cv-entry">
 <div class="cv-head"><span>NASA Jet Propulsion Laboratory, Mobility and Robotics Systems</span><span class="cv-when">Feb 2023 to Dec 2024</span></div>
 <div class="cv-sub">Visiting Student Researcher, LoRNA project, Pasadena, CA</div>
-<p>Vision-based map-relative localization for long-range flights of future Mars rotorcraft. Conceived Geo-LoFTR and MARTIAN, and benchmarked learning-based localization on embedded processors. <a href="/projects/lorna/">More</a></p>
+<p>Vision-based map-relative localization for long-range flights of future Mars rotorcraft. Conceived Geo-LoFTR and MARTIAN, and benchmarked learning-based localization on embedded processors.</p>
 </div>
 
 <div class="cv-entry">

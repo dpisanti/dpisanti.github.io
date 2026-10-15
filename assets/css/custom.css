@@ -62,3 +62,9 @@ html.dark .home-bg-fade {
   width: min(420px, 90vw); height: auto; margin: 1rem auto 1.25rem;
   border-radius: 0.9rem; box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
 }
+
+/* Small photo floated beside text, stacked on phones */
+.side-figure { float: right; width: 240px; margin: 0.25rem 0 1rem 1.5rem; }
+.side-figure img { width: 100%; height: auto; margin: 0; border-radius: 0.6rem; }
+.side-figure figcaption { font-size: 0.85rem; text-align: center; margin-top: 0.4rem; }
+@media (max-width: 640px) { .side-figure { float: none; width: 70%; margin: 1rem auto; } }

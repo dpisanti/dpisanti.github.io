@@ -14,15 +14,15 @@ description: "Curriculum vitae of Dario Pisanti."
 </div>
 
 <div class="cv-entry">
-<div class="cv-head"><span>NASA Jet Propulsion Laboratory, Mobility and Robotics Systems</span><span class="cv-when">Feb 2023 to Dec 2024</span></div>
-<div class="cv-sub">Visiting Student Researcher, LoRNA project, Pasadena, CA</div>
-<p>Vision-based map-relative localization for long-range flights of future Mars rotorcraft. Conceived Geo-LoFTR and MARTIAN, and benchmarked learning-based localization on embedded processors.</p>
+<div class="cv-head"><span>NASA Jet Propulsion Laboratory, Mobility and Robotic Systems Section</span></div>
+<div class="cv-role">
+<div class="cv-role-head"><span class="cv-sub">Visiting Student Researcher, LoRNA project, Pasadena, CA</span><span class="cv-when">Feb 2023 to Dec 2024</span></div>
+<p>Deep learning for map-relative localization of future Mars rotorcraft on long-range flights under challenging illumination. Conceived Geo-LoFTR, a geometry-aided deep image matcher, and MARTIAN, a framework that renders pose-annotated aerial imagery of Mars. <a href="https://dpisanti.github.io/geo-loftr/">More</a></p>
 </div>
-
-<div class="cv-entry">
-<div class="cv-head"><span>NASA Jet Propulsion Laboratory</span><span class="cv-when">Oct 2021 to Dec 2022</span></div>
-<div class="cv-sub">Visiting Student Researcher, LCRT project, Pasadena, CA</div>
+<div class="cv-role">
+<div class="cv-role-head"><span class="cv-sub">Visiting Student Researcher, LCRT project, Pasadena, CA</span><span class="cv-when">Oct 2021 to Dec 2022</span></div>
 <p>Science forward model and signal extraction pipeline for the Lunar Crater Radio Telescope, a NIAC concept to detect the 21-cm signal of the Cosmic Dark Ages. <a href="/projects/lcrt/">More</a></p>
+</div>
 </div>
 
 <div class="cv-entry">
@@ -66,9 +66,10 @@ description: "Curriculum vitae of Dario Pisanti."
 ## Awards
 
 - **Workshop Best Poster Award**, ICRA 2026, Vienna. Awarded by the IEEE-RAS Technical Committee on Space Robotics for *MARTIAN: A Rendering Framework for Aerial Mars Imagery from HiRISE Orbital Data*.
-- **NOVA Award**, NASA Jet Propulsion Laboratory, 2024. Notable Organizational Value Added award from the Mobility and Robotics Systems section, for the science pipeline of the Lunar Crater Radio Telescope.
+- **NOVA Award**, NASA Jet Propulsion Laboratory, 2024. Notable Organizational Value Added award from the Mobility and Robotic Systems Section, for the science pipeline of the Lunar Crater Radio Telescope.
 - **AIAA Spacecraft Structures Best Paper Award**, AIAA SciTech 2023, for *Kilometer-Scale Parabolic Reflector for a Radio Telescope in a Lunar Crater*.
 - **1st place, Lab2Moon Global Challenge**, Team Indus, Bangalore, 2017, for the lunar experiment concept Radio-Shield.
+- **1st place, NASA Space Apps Challenge**, Naples edition, 2016, for the Mars surface mobility concept SRS Explorer.
 
 ## Mentoring
 

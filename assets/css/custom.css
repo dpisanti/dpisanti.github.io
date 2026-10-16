@@ -68,3 +68,5 @@ html.dark .home-bg-fade {
 .side-figure img { width: 100%; height: auto; margin: 0; border-radius: 0.6rem; }
 .side-figure figcaption { font-size: 0.85rem; text-align: center; margin-top: 0.4rem; }
 @media (max-width: 640px) { .side-figure { float: none; width: 70%; margin: 1rem auto; } }
+.cv-role { margin: 0.45rem 0 0 0; }
+.cv-role-head { display: flex; justify-content: space-between; gap: 1rem; flex-wrap: wrap; }

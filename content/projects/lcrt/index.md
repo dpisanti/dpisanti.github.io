@@ -21,7 +21,7 @@ I developed the science pipeline for the concept within its NIAC Phase II study.
 - **Signal extraction.** I integrated a pattern recognition pipeline into a simulated lunar observation framework, retrieving the Dark Ages signal to within 20 mK over a one-year mission, despite galactic foregrounds several orders of magnitude brighter.
 - **Simulated datasets.** I generated training and test sets of sky observations from the lunar far side with the full LCRT antenna model, including crater morphology and the dielectric properties of the regolith.
 
-This work received the NOVA Award from the Mobility and Robotics Systems section of NASA JPL in 2024.
+This work received the NOVA Award from the Mobility and Robotic Systems Section of NASA JPL in 2024.
 
 ## Outputs
 

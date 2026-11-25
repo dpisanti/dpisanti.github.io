@@ -58,6 +58,12 @@ description: "Curriculum vitae of Dario Pisanti."
 ## Grants
 
 <div class="cv-entry">
+<div class="cv-head"><span>PHAROS: Precision Hazard Aware Map-Relative Navigation for Optical Landing Systems</span><span class="cv-when">2026 to present</span></div>
+<div class="cv-sub">Co-author and Work Package Manager</div>
+<p>ESA Invitation to Tender 1-13516, <em>Vision Based Navigation Techniques for Mars Landers</em>. Awarded; started in November 2026.</p>
+</div>
+
+<div class="cv-entry">
 <div class="cv-head"><span>AI4SPACE-XPLORE: Advanced AI Solutions for Space Exploration</span><span class="cv-when">2025 to 2026</span></div>
 <div class="cv-sub">Co-author and Project Coordinator; consortium led by the University of Luxembourg</div>
 <p>ESA Invitation to Tender 1-12786. Awarded EUR 200k; completed in September 2026.</p>
